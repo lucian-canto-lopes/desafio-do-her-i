@@ -1,5 +1,7 @@
 
+let Nome = prompt("digite o Nome do herói:");
 let XP = prompt("digite o xp");
+
 let NivelDoHeroi;
 if (XP <= 1.000){
   NivelDoHeroi = "ferro"
@@ -25,4 +27,4 @@ if (9.001<= XP && XP < 10.000){
 if (XP >= 10.001){
   NivelDoHeroi = "Radiante"
 };
-console.log("o nivel do heroi é: " + NivelDoHeroi);
+console.log("O Herói de nome "+ Nome + " está no nível de " + NivelDoHeroi);
